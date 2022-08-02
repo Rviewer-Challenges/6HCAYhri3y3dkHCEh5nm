@@ -1,13 +1,13 @@
 import { useState } from 'react'
 
-function Home() {
+function Loading() {
     const [count, setCount] = useState(0)
 
     return (
         <div className="HOME">
-            <p className='text-3xl font-bold text-center'>HERE CHAT</p>
+            <p className='text-3xl font-bold text-center'>LOADING...</p>
         </div>
     )
 }
 
-export default Home
+export default Loading
